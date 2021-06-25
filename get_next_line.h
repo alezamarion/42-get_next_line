@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/21 21:08:47 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/23 21:01:55 by azamario         ###   ########.fr       */
+/*   Updated: 2021/06/25 13:29:11 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,6 @@
 # include <stdlib.h>
 # include <fcntl.h>
 # include <stdio.h>
-
 
 int				get_next_line(int fd, char **line);
 char			*ft_strdup(const char *s1);
