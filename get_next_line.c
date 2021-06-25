@@ -6,9 +6,11 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/21 21:07:33 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/25 13:37:55 by azamario         ###   ########.fr       */
+/*   Updated: 2021/06/25 19:35:01 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "get_next_line.h"
 
 static int	find_line_break(char *s_line)
 {
@@ -29,7 +31,10 @@ static int	find_line_break(char *s_line)
 static int	check_ret(char **save, char **line, ssize_t ret)
 {
 	if (ret < 0)
+	{
 		*line = NULL;
+		return (-1);
+	}
 	else if (*save == NULL)
 		*line = ft_strdup("");
 	else
@@ -47,11 +52,12 @@ static int	return_line(char **save, char **line, ssize_t ret)
 	i = find_line_break(*save);
 	if (i >= 0)
 	{
+		if (line == NULL)
+			return (-1);
 		*line = ft_substr(*save, 0, i);
 		tmp = ft_substr(*save, i + 1, ft_strlen(*save));
 		free(*save);
 		*save = tmp;
-		tmp = NULL;
 		return (1);
 	}
 	else
