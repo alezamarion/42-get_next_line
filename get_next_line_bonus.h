@@ -1,17 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line.h                                    :+:      :+:    :+:   */
+/*   get_next_line_bonus.h                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/06/21 21:08:47 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/27 15:35:05 by azamario         ###   ########.fr       */
+/*   Created: 2021/06/27 15:38:11 by azamario          #+#    #+#             */
+/*   Updated: 2021/06/27 15:38:26 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef GET_NEXT_LINE_H
-# define GET_NEXT_LINE_H
+#ifndef GET_NEXT_LINE_BONUS_H
+# define GET_NEXT_LINE_BONUS_H
 # define OPEN_MAX 256
 
 # include <unistd.h>
