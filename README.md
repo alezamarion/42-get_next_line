@@ -6,6 +6,10 @@ The aim of this project is to code a function that returns a line ending with a 
 ```
 42Libft $ make
 ```
+🚧 bonus:<br/>
+```
+42Libft $ make bonus
+```
 :shower: Clean Obj files:<br/>
 ```
 42Libft $ make clean
@@ -21,8 +25,3 @@ The aim of this project is to code a function that returns a line ending with a 
 
 <br/>See Makefile<br/>
 
-<h2><b>Main Idea</b></h2>
-
-Here, a simple drawning about the main idea: copy buffer until find a '\n', keeping the residual for the next call.
-
-![gnl_idea](imgs/gnl_idea.png)
