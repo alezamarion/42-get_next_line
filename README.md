@@ -5,7 +5,7 @@ Project that codes a function that returns a line ending with a newline, read fr
 
 ## Badge
 
-<img src="get_next_linem.png">
+<img src="get_next_line.png">
 
 ## SKills
 
